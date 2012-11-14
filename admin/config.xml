@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params name='Global1' label='Global One'>
+		<param name="makeConfigCompetible" type="radio" default="0" label="Make Config Competible To J1.5,1.6 and 1.7" description="Automatic Conversion of config.xml file at the time of generate to make fit for Joomla 1.5, 1.6 and 1.7">
+			<option value="0">No, I will Myslef add param and fieldset tags in config.xml</option>
+			
+		</param>
+	</params>
+        <fieldset name='Global1' label='Global One'>
+		<field name="makeConfigCompetible" type="radio" default="0" label="Make Config Competible To J1.5,1.6 and 1.7" description="Automatic Conversion of config.xml file at the time of generate to make fit for Joomla 1.5, 1.6 and 1.7">
+			<option value="0">No, I will Myslef add param and fieldset tags in config.xml</option>
+		</field>
+	</fieldset>
+</config>
